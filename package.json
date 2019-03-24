@@ -1,0 +1,23 @@
+{
+  "name": "production-component-modules",
+  "version": "1.0.0",
+  "description": "Register of Production Component Modules dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamOdum/production-component-modules.git"
+  },
+  "author": "Sam Odum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamOdum/production-component-modules/issues"
+  },
+  "homepage": "https://github.com/SamOdum/production-component-modules#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^8.0.1"
+  }
+}

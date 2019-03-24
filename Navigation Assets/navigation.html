@@ -6,36 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Navigation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/navigation.css">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+    <nav class="navbar"> <!--======== NAVIGATION BAR START ========-->
+        <a href="#" class="navbar__logo">logo</a>
+        <label class="navbar__toggle" for="navbar__main-navigation-toggle">
             <i class="fa fa-bars"></i>
         </label>
-        <a href="#" class="logo">logo</a>
-        <input type="checkbox" id="chkToggle"></input>
-        <ul class="main-nav" id="js-menu">
+        <input type="checkbox" class="navbar__check-toggle" id="navbar__main-navigation-toggle"></input>
+        <ul class="navbar__navigation" id="navbar__main-navigation">
             <li>
-                <a href="#" class="nav-links">Home</a>
+                <a href="#" class="navbar__navigation-link">Home</a>
             </li>
             <li>
-                <a href="#" class="nav-links">Products</a>
+                <a href="#" class="navbar__navigation-link">Products</a>
             </li>
             <li>
-                <a href="#" class="nav-links">About Us</a>
+                <a href="#" class="navbar__navigation-link">About Us</a>
             </li>
             <li>
-                <a href="#" class="nav-links">Contact Us</a>
+                <a href="#" class="navbar__navigation-link">Contact Us</a>
             </li>
             <li>
-                <a href="#" class="nav-links">Blog</a>
+                <a href="#" class="navbar__navigation-link">Blog</a>
             </li>
         </ul>
-    </nav>
+    </nav> <!--======== NAVIGATION BAR END ========-->
 </body>
 
 </html>

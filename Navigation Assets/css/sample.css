@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: vw;
+    background-color: rgb(110, 110, 182);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav>div {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    background-color: aqua;
+}
+
+nav>div>a,
+nav>div>span {
+    text-decoration: none;
+}
+
+nav>div>a {
+    font-weight: 900;
+}
+
+nav .nav-links {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+    background-color: brown;
+    color: white;
+}
+
+nav .nav-links a {
+    color: white;
+    text-align: center;
+}
